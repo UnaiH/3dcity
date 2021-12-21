@@ -1,0 +1,7 @@
+version: '3'
+services:
+        3dcity:
+                container_name: 3dcity
+                build:
+                        context: .
+                        dockerfile: Dockerfile
